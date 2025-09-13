@@ -67,3 +67,52 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+/* Heading hierarchy */
+section h3 {
+    font-size: 20px;
+    color: #111;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+section h4 {
+    font-size: 16px;
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Tags and Placeholders */
+.tag {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.tag.new {
+    background-color: #e0f3ff;
+    color: #006fcf;
+}
+
+.tag.beta {
+    background-color: #fff0e0;
+    color: #c45d00;
+}
+
+.image-placeholder {
+    background-color: #f7f7f7;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
